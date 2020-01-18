@@ -6,7 +6,7 @@
 
 Name:           pyparsing
 Version:        1.5.6
-Release:        8%{?dist}
+Release:        9%{?dist}
 Summary:        An object-oriented approach to text processing
 Group:          Development/Libraries
 License:        MIT
@@ -116,6 +116,9 @@ rm -rf %{buildroot}
 %doc CHANGES README LICENSE docs/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.5.6-9
+- Mass rebuild 2013-12-27
+
 * Wed Apr  3 2013 Thomas Spura <tomspur@fedoraproject.org> - 1.5.6-8
 - add patch to correct typo in exception handling
 
